@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="facebook.css" />
+    <link rel="stylesheet" href="Facebook-responsive.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link
+      rel="icon"
+      href="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/2021_Facebook_icon.svg/2048px-2021_Facebook_icon.svg.png"
+    />
+    <title>FACKBOOK</title>
+    <script src="../js/date.module.js"></script>
+
+  </head>
+
+  <body>
+    <div class="container">
+      <img
+        class="bg-img"
+        src="https://i.pinimg.com/736x/85/b8/b7/85b8b7d18a9453a2f42248bca5e5081b.jpg"
+        alt=""
+      />
+    </div>
+    <div class="container profile-container">
+      <div class="profile-left">
+        <div class="profile-img">
+          <img
+            src="https://www.teahub.io/photos/full/1-13929_nice-wallpapers-hd-12-nice-background.jpg"
+            alt=""
+          />
+          <i class="fa-solid fa-camera"></i>
+        </div>
+        <div class="profile-name">
+          <h1>ชาบู ชิ</h1>
+          <p>เพื่อน 500 คน ผู้ติดตาม 100 คน</p>
+          <div>
+            <img
+              src="https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/593.jpg"
+              alt=""
+            />
+            <img
+              src="https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/493.jpg"
+              alt=""
+            />
+            <img
+              src="https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/393.jpg"
+              alt=""
+            />
+            <img
+              src="https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/293.jpg"
+              alt=""
+            />
+            <img
+              src="https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/193.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+      <div class="profile-right">
+        <div>
+          <button class="active"><i class="fa-solid fa-pen"></i> แก้ไข</button>
+          <button><i class="fa-solid fa-pen-ruler"></i> ดูเครื่องมิอ</button>
+          <button><i class="fa-solid fa-plus"></i> เพิ่มลงในสรอรี่</button>
+        </div>
+        <div>
+          <button><i class="fa-solid fa-chevron-down"></i></button>
+        </div>
+      </div>
+    </div>
+
+    <!-- tab menu -->
+    <div class="container tab-menu-container">
+      <div class="menu-left">
+        <button class="active">โพสต์</button>
+        <button>เกี่ยวกับ</button>
+        <button>reels</button>
+        <button>รูปภาพ</button>
+        <button>วีดีโอ</button>
+        <button>กลุ่ม</button>
+        <button>เพิ่มเติม <i class="fa-solid fa-caret-down"></i></button>
+      </div>
+      <div class="menu-right">
+        <button><i class="fa-solid fa-ellipsis"></i></button>
+      </div>
+    </div>
+
+    <!--  conyen -->
+    <div class="content-container">
+      <div class="content">
+        <div class="content-left">
+          <div class="bio">
+            <h2>แนะนำตัว</h2>
+            <span
+              >รูปหล่อ กินจุ บ้านรวย หล่อเท่!!! </span
+            >
+            <button>แก้ไขคำอธิบายตัวเอง</button>
+            <span><i class="fa-solid fa-id-card"></i> โปรไฟล์ ซอฟต์แวร์ </span>
+            <span
+              ><i class="fa-solid fa-graduation-cap"></i> เรียน
+              วิทการคอมพิวเตอร์
+            </span>
+            <span
+              ><i class="fa-solid fa-graduation-cap"></i> เคยเรียนที่
+              โรงเรียนร่มเกล้ากาญจนบุรี
+            </span>
+            <span
+              ><i
+                style="font-size: 18px; margin-right: 6px"
+                class="fa-brands fa-instagram"
+              ></i>
+              p.SAMAT.p
+            </span>
+            <button>แก้ไขรายละเอียด</button>
+          </div>
+        </div>
+
+        <div class="content-right">
+          <div class="post-form">
+            <div>
+              <img
+                src="https://profileme.app/wp-content/uploads/2021/01/cropped-ProfileMe-06.jpg"
+                alt=""
+              />
+              <input type="text" placeholder=" คุณกำลังคิดอะไรอยู่ " id="post-input" />
+            </div>
+
+            <hr />
+
+            <div class="tab-button">
+              <button>
+                <i class="color-crison fa-solid fa-camera-retro"></i> ถ่ายทอดสด
+              </button>
+              <button>
+                <i class="color-forestgreen fa-solid fa-photo-film"></i>
+                รูปภาพ/วีดีโอ
+              </button>
+              <button>
+                <i class="color-deeppink fa-solid fa-video"></i> คลิป
+              </button>
+            </div>
+          </div>
+
+          <div id="post-body"></div>
+
+          <div class="post">
+            <div class="post-header">
+              <div class="header-left">
+                <img src="https://profileme.app/wp-content/uploads/2021/01/cropped-ProfileMe-06.jpg" alt="" />
+                <div class="part-name">
+                  <h4>SAMAT</h4>
+                  <span>22 กันยายน เวลา 12:00 น.</span>
+                </div>
+              </div>
+              <div class="header-right">
+                <button><i class="fa-solid fa-ellipsis"></i></button>
+              </div>
+            </div>
+            <div class="post-caption">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, illum dolore, tenetur suscipit ratione iusto eos odit, facilis dignissimos rem accusamus laborum voluptatem unde culpa deleniti? Ipsa maxime dignissimos corrupti?</p>
+            </div>
+            <div class="post-tab-menu">
+                <button><i class="fa-regular fa-thumbs-up"></i> ถูกใจ</button>
+                <button><i class="fa-regular fa-comment"></i> แสดงความคิดเห็น</button>
+                <button><i class="fa-solid fa-share"></i> แชร์</button>
+            </div>
+            <div class="post-input-comment">
+                <img src="https://profileme.app/wp-content/uploads/2021/01/cropped-ProfileMe-06.jpg" alt="">
+                <div class=" input-container">
+                    <input type="text" placeholder="เขียนความคิดเห็น...">
+                    <button><i class="fa-solid fa-face-angry"></i></button>
+                    <button><i class="fa-solid fa-person"></i></button>
+                    <button><i class="fa-solid fa-camera-retro"></i></button>
+                    <button><i class="fa-solid fa-gift"></i></button>
+                    <button><i class="fa-regular fa-face-smile"></i></button>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+        const input = document.getElementById("post-input");
+        const postBody = document.getElementById("post-body");
+        const posts = [];
+  
+        input.addEventListener("keypress", function (event) {
+          if (event.key === "Enter") submitForm();
+        });
+  
+        function submitForm() {
+          if (input.value) {
+            posts.unshift({ message: input.value, date: formattedDate() });
+            input.value = "";
+            renderPost();
+          }
+        }
+  
+        function renderPost() {
+          var str = "";
+          posts.forEach(function ({ message, date }) {
+            str += ` 
+            <div class="post">
+              <!-- post header -->
+              <div class="post-header">
+                <div class="header-left">
+                  <img
+                    src="https://profileme.app/wp-content/uploads/2021/01/cropped-ProfileMe-06.jpg"
+                    alt=""
+                  />
+                  <div class="part-name">
+                    <h4> ชาบู ชิ </h4>
+                    <span>${date}</span>
+                  </div>
+                </div>
+                <div class="header-right">
+                  <button><i class="fa-solid fa-ellipsis"></i></button>
+                </div>
+              </div>
+  
+              <!-- post caption -->
+              <div class="post-caption">
+                <p>
+                  ${message}
+                </p>
+              </div>
+  
+              <!-- post tab menu -->
+              <div class="post-tab-menu">
+                <button><i class="fa-regular fa-thumbs-up"></i> ถูกใจ</button>
+                <button>
+                  <i class="fa-regular fa-message"></i> แสดงความคิดเห็น
+                </button>
+                <button><i class="fa-solid fa-share"></i> แชร์</button>
+              </div>
+  
+              <!-- post comment -->
+              <div class="post-input-comment">
+                <img
+                  src="https://scontent-lhr8-1.xx.fbcdn.net/v/t39.30808-6/341534883_740804337523133_4684572932628061992_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=a2f6c7&_nc_ohc=jSEy81UzQ_UAX8udFwP&_nc_ht=scontent-lhr8-1.xx&oh=00_AfCHeLaqph_gzQpu5lrhS41a_fBwGnKwffGWy5Z0WeGSAw&oe=64FA4792"
+                  alt=""
+                />
+                <div class="input-container">
+                  <input type="text" placeholder="เขียนความคิดเห็น..." />
+                  <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                  <button><i class="fa-brands fa-twitter"></i></button>
+                  <button><i class="fa-solid fa-star"></i></button>
+                  <button><i class="fa-solid fa-wand-magic-sparkles"></i></button>
+                  <button><i class="fa-regular fa-image"></i></button>
+                </div>
+              </div>
+            </div>
+            `;
+          });
+  
+          postBody.innerHTML = str;
+        }
+      </script>
+
+  </body>
+</html>

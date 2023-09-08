@@ -1,0 +1,10 @@
+/* ใส่พื้นหลัง */
+body { 
+    background-color: rgb(134, 243, 134);
+    background-image: url("https://cdn.pixabay.com/photo/2016/11/29/04/42/conifers-1867371_640.jpg");
+    color: aliceblue;
+}
+/* ใส่สีข้อความ */
+h1 {color: rgb(0, 136, 255);}
+.color-red { color: rgb(2, 102, 102);}
+p {color: aqua;}
